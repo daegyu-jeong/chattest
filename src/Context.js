@@ -42,7 +42,7 @@ const ContextProvider = ({ children }) => {
   useEffect(() => {
     const roomData = {
       room: "광민1",
-      name: "123",
+      name: "1123",
     };
     socket.emit("user-connected");
 
